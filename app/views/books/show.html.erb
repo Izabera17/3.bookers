@@ -1,8 +1,5 @@
-<h1>投稿一覧</h1>
+<p id="notice" class="main">Book was successfully created.</p>
 
-<%= @book.each do |book| %>
-
-  <p>タイトル</p>
-  <span><%= book.title %></span>
+<p class="main"><span class="show">Title: </span><%= @book.title %></p>
+<p class="main"><span class="show">Body: </span><%= @book.body %></p>
   
-<% end %>
