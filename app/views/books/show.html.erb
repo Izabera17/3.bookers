@@ -1,5 +1,7 @@
-<p id="notice" class="main">Book was successfully created.</p>
+<div class="body">
+  <p id="notice" class="content">Book was successfully created.</p>
+  <p class="content"><span class="show">Title: </span><%= @books.title %></p>
+  <p class="content"><span class="show">Body: </span><%= @books.body %></p>
+  <p class="main"><%= link_to "Edit", edit_book_path(@books.id) %> | <%= link_to "Back", books_path %></p>  
+</div>
 
-<p class="main"><span class="show">Title: </span><%= @book.title %></p>
-<p class="main"><span class="show">Body: </span><%= @book.body %></p>
-  
