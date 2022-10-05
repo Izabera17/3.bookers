@@ -14,7 +14,7 @@
 }
 
 
-.headline {
+.headline_second {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -69,4 +69,13 @@ td {
 
 .show {
   font-weight: bold;
+}
+
+.edit_body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
 }

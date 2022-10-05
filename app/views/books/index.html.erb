@@ -17,9 +17,9 @@
 		<tr>
 			<td><%= books.title %></td>
 			<td><%= books.body %></td>
-			<td><%= link_to "show", book_path(books.id) %></td>
-			<td><%= link_to "edit", edit_book_path(books) %></td>
-			<td><%= link_to "destroy", books , method: :delete,  "data-confirm" => "Are you sure?" %></td>
+			<td><%= link_to "Show", book_path(books.id) %></td>
+			<td><%= link_to "Edit", edit_book_path(books) %></td>
+			<td><%= link_to "Destroy", books, method: :delete,  "data-confirm" => "Are you sure?" %></td>
 		</tr>
 		<% end %>
 	</tbody>
@@ -27,7 +27,7 @@
 
 
 <body class="content">
-  <h1 class=headline_>New Book</h1>
+  <h1 class=headline_second>New Book</h1>
 
   <%= form_with model: @books do |f| %>
     <div class="field">
@@ -44,4 +44,5 @@
 	    <%= f.submit 'Create Book' %>
 	  </div>
   <% end %>
+ 
 </body>
