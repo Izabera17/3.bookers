@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ 
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,160 @@
   font-family: verdana, arial, helvetica, sans-serif;
 }
 
+
+#notice {
+  color: green;
+}
+
+.content {
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+
+.field,
+.submit {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.field h4 {
+  font-weight:normal;
+}
+
+.body {
+  margin: 33px;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.main {
+  background-color: #fff;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.headline {
+  font-size: 2em;
+  line-height: 18px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+.headline_second {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.headline_content {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.text-inner {
+  margin: 33px;
+}
+
+
+thead,
+tbody {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+thead {
+  height: 24px;
+}
+
 tbody {
   font-weight: normal;
 }
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.show {
+  font-weight: bold;
+}
+
+.edit_body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.errors_count {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.errors_count_ms {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.errors_list {
+  display: block;
+  list-style-type: disc;
+  margin: 33px;
+  padding-inline-start: 40px;
+}
+
+.field_errors {
+  font-weight:normal;
+  margin-bottom: 10px;
+}
+
+.field_errors_content {
+  font-weight: normal;
+  padding: 2px;
+  background-color: red;
+  display:table;
+}
+
+.button {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
