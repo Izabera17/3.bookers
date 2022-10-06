@@ -21,7 +21,6 @@
   font-family: verdana, arial, helvetica, sans-serif;
 }
 
-
 #notice {
   color: green;
 }
@@ -31,8 +30,6 @@
   font-size: 13px;
   line-height: 18px;
 }
-
-
 
 .field,
 .submit {
@@ -50,7 +47,6 @@
 .body {
   margin: 33px;
 }
-
 
 .bold {
   font-weight: bold;
@@ -74,7 +70,6 @@
   font-weight: bold;
 }
 
-
 .headline_second {
   display: block;
   font-size: 1.5em;
@@ -96,7 +91,6 @@
 .text-inner {
   margin: 33px;
 }
-
 
 thead,
 tbody {
@@ -176,5 +170,3 @@ td {
   font-size: 13px;
   line-height: 18px;
 }
-
-
